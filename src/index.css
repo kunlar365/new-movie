@@ -11,3 +11,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page-content {
+  text-align: center;
+}
+
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* .container {
+  max-width: 1110px;
+  margin: 0 auto;
+} */
+
+.movie img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+input {
+  width: 500px;
+  font-size: 24px;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+
+.movie {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 35px;
+  width: 400px;
+}
+
+h2 {
+  text-align: start;
+}
+
+.all {
+  text-align: end;
+}
+
+.see_all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-texts {
+  width: 820px;
+}
+
+.about-movie {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container {
+  width: 1680px;
+  margin: 0 auto;
+}
+
+.view_movie_page {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.view_movie_page h2 {
+  margin: 0;
+  padding: 70px;
+}
+
+.about-movie {
+  padding-left: 70px;
+  padding-bottom: 70px;
+}
+
+.similarcard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Card {
+  width: 33%;
+}
+
+.bgimage {
+  background-size: cover;
+}
+
+.actorcard_img {
+  width: 250px;
+}
+
+.objects {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  width: 1430px;
+  margin: 0 auto;
+}
+
+.active-genre {
+  background-color: #21d07a;
+}
+
+.sc-dkPtRN {
+  flex-wrap: wrap;
+  width: 50px;
+}
+
+.objects::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(72, 73, 64, 0.8);
+}
+
